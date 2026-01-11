@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lucien Newerkowitsch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="fixed-background"></div>
+    <div class="app-container">
+        <!-- Barre de navigation principale -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li class="dropdown">
+                    <a href="#competences">Compétences</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#competence1">C1 : Réaliser un développement d'application</a></li>
+                        <li><a href="#competence2">C2 : Optimiser des applications</a></li>
+                        <li><a href="#competence3">C3 : Administrer des systèmes</a></li>
+                        <li><a href="#competence4">C4 : Gérer des données</a></li>
+                        <li><a href="#competence5">C5 : Conduire un projet</a></li>
+                        <li><a href="#competence6">C6 : Travailler en équipe</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Section Accueil -->
+        <section id="accueil" class="hero">
+            <h1>Portfolio d'Apprentissage et d'Évaluation</h1>
+            <h2>BUT 3 Informatique: Déploiement et Cybersécurité - Lucien Newerkowitsch</h2>
+        </section>
+
+        <div class="competences-container">
+            <!-- Compétence 1 -->
+            <section id="competence1" class="competence-accordeon">
+                <div class="competence-header" onclick="toggleCompetence('competence1')">
+                    <h2>Compétence 1 : Réaliser un développement d'application <i class="fas fa-chevron-down arrow"></i>
+                    </h2>
+                </div>
+                <div class="competence-content">
+                    <div class="niveau-gradient">
+                        <div class="gradient-scale">
+                            <span>0</span><span>Non Acquis</span><span>3</span><span>En
+                                Cours</span><span>6</span><span>Acquis</span><span>10</span>
+                        </div>
+                        <div class="gradient-bar">
+                            <div class="gradient-marker" style="left: 30%;">S1</div>
+                            <div class="gradient-marker" style="left: 65%;">S2</div>
+                            <div class="gradient-marker" style="left: 70%;">S3</div>
+                        </div>
+                    </div>
+                    <div class="analyse">
+                        <h3>Analyse :</h3>
+                        <ul>
+                            <li>Ce qui m’a plu dans cette compétence, c’est de pourvoir apprendre de nouveaux
+                                langages de programmation mais aussi d’apprendre comment les mettre en actions
+                                dans des projets de situation d’apprentissage et d’évaluation (SAE), pour pouvoir
+                                mieux les comprendre et les mettre en place.
+                            </li>
+                            <li>Cependant, ce qui m’a déplus dans cette compétence c’est pendant le projet du
+                                premier semestre car je me suis retrouvé dans un groupe où une personne ne
+                                travaillait pas beaucoup donc ça m’a un peu déçu de la compétence au début mais
+                                par la suite ça a été mieux.</li>
+                            <li>La difficulté c’est d’être régulier dans l’apprentissage de la compétence afin de ne pas
+                                prendre du retard.</li>
+                        </ul>
+                    </div>
+                    <div class="traces">
+                        <h3>Traces :</h3>
+                        <ul>
+                            <li><a href="assets/documents/Rapport SAE Puissance 4.pdf" target="_blank">SAE 1.01
+                                    (Puissance
+                                    4)</a>
+                            </li>
+                            <li><a href="https://github.com/Cypou360/sae201_202" target="_blank">SAE 2.01 (GitHub)</a>
+                            </li>
+                            <li><a href="https://github.com/scorpenemods/SAE-BUT2-S4" target="_blank">SAE 3.01
+                                    (GitHub)</a></li>
+                        </ul>
+                    </div>
+                    <div class="preuves">
+                        <h3>Preuves :</h3>
+                        <div class="captures">
+                            <img src="assets/images/SAE1.01.png" alt="Capture SAE 1.01">
+                            <img src="assets/images/SAE2.01.png" alt="Capture SAE 2.01">
+                            <img src="assets/images/SAE3.01.png" alt="Capture SAE 3.01">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Compétence 2 -->
+            <section id="competence2" class="competence-accordeon">
+                <div class="competence-header" onclick="toggleCompetence('competence2')">
+                    <h2>Compétence 2 : Optimiser des applications informatiques <i
+                            class="fas fa-chevron-down arrow"></i>
+                    </h2>
+                </div>
+                <div class="competence-content">
+                    <!-- Contenu similaire à la Compétence 1 -->
+                    <div class="niveau-gradient">...</div>
+                    <div class="analyse">...</div>
+                    <div class="traces">...</div>
+                    <div class="preuves">...</div>
+                </div>
+            </section>
+
+            <!-- Répéter pour les compétences 3 à 6 -->
+        </div>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <a href="https://github.com/Lucknite0710" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:lulunewerkowitsch@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+33744703982" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 7 44 70 39 82</span>
+                </a>
+            </div>
+        </section>
+
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
