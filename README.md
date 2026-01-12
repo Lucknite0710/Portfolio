@@ -8,7 +8,7 @@ Ce portfolio présente mes **6 compétences** acquises durant mon BUT Informatiq
 - **Montrer ma progression** (échelle de 0 à 10 pour chaque compétence).
 - **Partager mes analyses** (points positifs, difficultés, apprentissages).
 - **Centraliser mes preuves** (rapports PDF, liens GitHub, captures d'écran).
-- 
+  
 ## 🎯 **Objectifs du Portfolio**
 **Présenter mes 6 compétences** en BUT Informatique :
    - C1 : Réaliser un développement d'application
@@ -17,7 +17,7 @@ Ce portfolio présente mes **6 compétences** acquises durant mon BUT Informatiq
    - C4 : Gérer des données de l'information
    - C5 : Conduire un projet
    - C6 : Travailler dans une équipe informatique
-   - 
+     
 ## 📬 **Contact**
 Pour toute question ou collaboration :
 - **Email** : lulunewerkowitsch@gmail.com
