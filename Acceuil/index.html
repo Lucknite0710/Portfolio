@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucien Newerkowitsch - Accueil</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fixed-background"></div>
+
+    <div class="container">
+        <header class="header">
+            <h1>Bienvenue</h1>
+            <p>Explorez mes univers : parcours académique et projets personnels.</p>
+        </header>
+
+        <div class="card-grid">
+            <!-- Portfolio Étudiant -->
+            <a href="../Etudiant/index.html" class="card">
+                <div class="card-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h2>Portfolio Étudiant</h2>
+                <p>Découvrez mon parcours académique, mes compétences et mes réalisations en BUT Informatique.</p>
+                <i class="fas fa-arrow-right card-arrow"></i>
+            </a>
+
+            <!-- Projets Personnels -->
+            <a href="#" class="card" onclick="alert('Bientôt disponible !')">
+                <div class="card-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h2>Projets Personnels</h2>
+                <p>Plongez dans mes créations personnelles, audacieuses et innovantes.</p>
+                <i class="fas fa-arrow-right card-arrow"></i>
+            </a>
+        </div>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <a href="https://github.com/Lucknite0710" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:lulunewerkowitsch@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+33744703982" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <span>+33 7 44 70 39 82</span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
